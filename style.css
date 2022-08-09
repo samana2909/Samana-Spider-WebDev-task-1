@@ -1,0 +1,119 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: rgb(238, 222, 252);
+
+}
+
+.header{
+    color: white;
+    background-color: rgb(58, 3, 167);
+    font-size: 22px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;   
+         
+}
+.players{
+    color: rgb(3, 7, 7);
+    font-size: 30px;
+    
+}
+#player1{
+    position: fixed;
+    left: 25%;
+    
+}
+#player2{
+    position: fixed;
+    right: 25%;  
+}
+#player1button{
+    display: none;
+    position:fixed;
+    top: 14%;
+    left:15%;
+    font-size: 25px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(230, 190, 235);
+    
+}
+#player2button{
+    display: none;
+    position:fixed;
+    top: 14%;
+    right: 15%;
+    font-size: 25px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(230, 190, 235);
+} 
+
+#number1{
+    color:black;
+    font-size: 40px;
+    position: fixed;
+    top: 20%;
+    left:27%;
+}
+#number2{
+    color:black;
+    font-size: 40px;
+    position: fixed;
+    top: 20%;
+    right:27%;
+}
+
+table{
+    position: fixed;
+    top: 30%;  
+    left:15%;
+    width: 1000px;     
+}
+table,th,td {
+    border :5px solid black;
+    height: 75px;
+    border-collapse: collapse;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    font-size: 35px;
+
+}
+tr:nth-child(odd){
+    background-color: rgb(190, 171, 234);
+}
+tr:nth-child(even){
+    background-color: rgb(158, 94, 231);
+}
+img {
+    height: 60px;
+}
+#player1wins{
+    display: none;
+    position: fixed;
+    top: 93%;
+    font-size: 30px;
+    left: 42%
+}
+#player2wins{
+    display: none;
+    position: fixed;
+    top: 93%;
+    font-size: 30px;
+    left: 42%
+}
+#start {
+    position: fixed;
+    top:15%;
+    left: 5%;
+    font-size: 40px;
+    color: rgb(51, 7, 139);
+    background-color: rgb(190, 163, 244);
+    border-color:rgb(68, 5, 196) ;
+    border-radius: 8px;
+}
