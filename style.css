@@ -27,11 +27,13 @@ body{
 #player1{
     position: fixed;
     left: 25%;
+    text-decoration: underline;
     
 }
 #player2{
     position: fixed;
-    right: 25%;  
+    right: 25%;
+    text-decoration: underline; 
 }
 #player1button{
     display: none;
@@ -116,4 +118,30 @@ img {
     background-color: rgb(190, 163, 244);
     border-color:rgb(68, 5, 196) ;
     border-radius: 8px;
+}
+#turns1{
+    position:fixed;
+    left:90%;
+    top:55%;
+    font-size: 30px;
+}
+#turns2{
+    position:fixed;
+    left:90%;
+    top:75%;
+    font-size: 30px;
+}
+#turnstext1{
+    position:fixed;
+    left:85%;
+    top:50%;
+    font-size: 20px;
+    text-decoration: underline;
+}
+#turnstext2{
+    position:fixed;
+    left:85%;
+    top:70%;
+    font-size: 20px;
+    text-decoration: underline;
 }
